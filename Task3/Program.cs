@@ -2,8 +2,8 @@
 uint N = Convert.ToUInt32(Console.ReadLine());
 
 Double[] array = new Double[N];
-Double min = 0;
-Double max = 0;
+Double min = array[0];
+Double max = array[0];
 
     for (int i = 0; i < array.Length; i++)
     {
