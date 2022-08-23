@@ -9,7 +9,7 @@ int[] array = new int[N];
         array[i] = new Random().Next(-99, 99);
             if(i % 2 != 0)
             {
-                Sum = Sum + array[i];
+                Sum +=array[i];
             } 
     }
 
