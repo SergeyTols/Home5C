@@ -6,7 +6,7 @@ int[] array = new int[N];
     
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = new Random().Next(100, 999);
+        array[i] = new Random().Next(100, 1000);
         // Console.Write(array[i] + " ");
 
         if(array[i] % 2 == 0)
